@@ -1,6 +1,6 @@
 
 class BubbleSort {
-    static void bubbleSort(int arr[]) {
+    static void insertionsort(int arr[]) {
         int n = arr.length;
         for (int i = 0; i < n - 1; i++)
             for (int j = 0; j < n - i - 1; j++)
@@ -14,6 +14,15 @@ class BubbleSort {
 
     public static void main(String args[]) {
 
-        bubbleSort();
+        insertionsort();
+
+        switch (key) {
+            case value:
+
+                break;
+
+            default:
+                break;
+        }
     }
 }
